@@ -1,0 +1,28 @@
+# IDE workspace files
+.metadata/
+**/.metadata/
+.settings/
+.classpath
+.project
+# Frontend
+travel-frontendd/node_modules/
+travel-frontendd/dist/
+travel-frontendd/.env
+travel-frontendd/.env.*
+
+# Backend
+travel-backend/target/
+travel-backend/.env
+travel-backend/.env.*
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
